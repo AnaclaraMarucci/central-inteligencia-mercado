@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central de Inteligência de Mercado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-area">
+            <h1>🤖 Central de Inteligência de Mercado</h1>
+            <p>Monitoramento de Concorrência em Tempo Real</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="dashboard-cards">
+            <div class="card">
+                <h3>Produtos Monitorados</h3>
+                <p id="total-produtos">1</p>
+            </div>
+            <div class="card alerta">
+                <h3>Alertas de Preço Baixo</h3>
+                <p id="total-alertas">0</p>
+            </div>
+        </section>
+
+        <section class="tabela-section">
+            <h2>📦 Produtos no Mercado</h2>
+            <table id="tabela-produtos">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome do Produto</th>
+                        <th>Preço Capturado</th>
+                        <th>Disponibilidade</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="corpo-tabela">
+                    <tr>
+                        <td>1</td>
+                        <td>A Light in the Attic</td>
+                        <td>R$ 51.77</td>
+                        <td><span class="badge disponivel">Disponível</span></td>
+                        <td><span class="badge normal">Preço Normal</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sistema de Inteligência de Mercado - Desenvolvido por Ana Clara Marucci</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

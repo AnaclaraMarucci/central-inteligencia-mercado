@@ -1,0 +1,17 @@
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Banco de dados local
+*.sqlite3
+
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+
+# Arquivos do VS Code
+.vscode/    
+
+# Dependências do Node (Scraper)
+node_modules/
